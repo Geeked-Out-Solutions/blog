@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Contentful + Gatsby
+          Geeked Out Solutions Blog
         </Link>
       </h1>
     </div>
