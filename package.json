@@ -91,11 +91,11 @@
       "maxSubjectLength": 72
     }
   },
-  "author": "Scott Nonnenberg <scott@nonnenberg.com>",
+  "author": "Brian Hopkins <btotharye@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/scottnonnenberg/blog",
+  "homepage": "https://github.com/Geeked-Out-Solutions/blog",
   "repository": {
     "type": "git",
-    "url": "git@github.com:scottnonnenberg/blog.git"
+    "url": "git@github.com:Geeked-Out-Solutions/blog.git"
   }
 }
