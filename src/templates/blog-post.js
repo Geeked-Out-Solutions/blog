@@ -33,11 +33,18 @@ export default BlogPost
 
 export const pageQuery = graphql`
     query blogPostQuery($slug: String!){
-        contentfulPost(slug: {eq: $slug}) {
+        contentfulBlog(slug: {eq: $slug}) {
             title
             createdAt(formatString: "MMMM DD, YYYY")
             featuredImage {
-                sizes(maxWidth: 800)
+                sizes(maxWidth: 800) {
+                    ...GatsbyContentfulSizes
+                }
+            }
+            content {
+                childMarkdownRemark {
+                    html
+                }
             }
         }
     }
