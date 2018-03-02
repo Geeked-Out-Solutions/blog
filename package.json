@@ -36,6 +36,7 @@
   "dependencies": {
     "catch-links": "2.0.1",
     "front-matter": "2.1.0",
+    "fs": "0.0.1-security",
     "gatsby": "0.12.7",
     "highlight.js": "9.4.0",
     "lodash": "4.15.0",
