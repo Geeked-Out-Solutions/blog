@@ -10,8 +10,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Geeked Out Solutions Blog"
       meta={[
-        { name: 'description', content: 'A blog providing tutorials on chatbots and datacenter automation' },
-        { name: 'keywords', content: 'chatbots, automation, datacenter, AI, machine learning, python, react, js' },
+        { name: 'description', content: 'providing tutorials on chatbots and datacenter automation' },
+        { name: 'keywords', content: 'chatbots, automation, datacenter, AI, machine learning' },
       ]}
     />
     <Header />
