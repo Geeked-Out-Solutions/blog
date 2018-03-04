@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Chatbot Tutorials Coming...
 date: 2018-03-04T02:04:13.088Z
-description: New site revamp
+description: New site revamp underway
 ---
 ![](/img/untitled design (2).jpg)
 
