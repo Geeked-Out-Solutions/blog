@@ -1,66 +1,65 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Img from "gatsby-image"
 
-const BlogPost = ({node}) => {
+export default class IndexPage extends React.Component {
+  render() {
+    const { data } = this.props
+    const { edges: posts } = data.allMarkdownRemark
+
     return (
-        <div style={{
-            marginBottom: '1.5rem',
-            padding: '1.5rem',
-            border: '1px solid #ccc'
-        }}>
-            <h3><Link to={node.slug}>{node.title}</Link></h3>
-            <p>{node.createdAt}</p>
-            <div>
-                <div>
-                    <Img resolutions={node.featuredImage.resolutions}/>
-                </div>
-                <div>{node.content.childMarkdownRemark.excerpt}</div>
-            </div>
+      <section className="section">
+        <div className="container">
+          <div className="content">
+            <h1 className="has-text-weight-bold is-size-2">Latest Posts</h1>
+          </div>
+          {posts
+            .filter(post => post.node.frontmatter.templateKey === 'blog-post')
+            .map(({ node: post }) => (
+              <div
+                className="content"
+                style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
+                key={post.id}
+              >
+                <p>
+                  <Link className="has-text-primary" to={post.fields.slug}>
+                    {post.frontmatter.title}
+                  </Link>
+                  <span> &bull; </span>
+                  <small>{post.frontmatter.date}</small>
+                </p>
+                <p>
+                  {post.excerpt}
+                  <br />
+                  <br />
+                  <Link className="button is-small" to={post.fields.slug}>
+                    Continue Reading →
+                  </Link>
+                </p>
+              </div>
+            ))}
         </div>
+      </section>
     )
+  }
 }
-
-const IndexPage = (props) => {
-
-    console.log(props)
-    return (
-        <div>
-            {props.data.allContentfulBlog.edges.map((edge) => <BlogPost key={edge.node.id} node={edge.node} />)}
-        </div>
-    )
-}
-
-export default IndexPage
 
 export const pageQuery = graphql`
-    query pageQuery {
-        allContentfulBlog(
-            filter: {
-                node_locale: {eq: "en-US"}
-            },
-            sort: {
-                fields: [createdAt], order: DESC
-            }
-        ) {
-            edges {
-                node {
-                    id
-                    title
-                    slug
-                    createdAt(formatString: "MMMM DD, YYYY")
-                    featuredImage {
-                        resolutions(width: 300) {
-                            ...GatsbyContentfulResolutions
-                        }
-                    }
-                    content {
-                        childMarkdownRemark {
-                            excerpt
-                        }
-                    }
-                }
-            }
+  query IndexQuery {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            templateKey
+            date(formatString: "MMMM DD, YYYY")
+          }
         }
+      }
     }
+  }
 `

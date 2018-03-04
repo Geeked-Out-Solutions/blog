@@ -1,51 +1,58 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import Img from "gatsby-image"
+import React from 'react'
+import Helmet from 'react-helmet'
+import Content, { HTMLContent } from '../components/Content'
 
-class BlogPost extends Component {
-    render() {
-        console.log(this.props)
-        const { title, createdAt, featuredImage, content } = this.props.data.contentfulBlog
-        return (
-            <div>
-                <h1 style={{
-                    borderBottom: '1px solid #ccc',
-                    paddingBottom: '0.5rem'
-                }}>
-                    {title}
-                </h1>
-                <p>{createdAt}</p>
-                <div>
-                    <Img sizes={featuredImage.sizes}/>
-                </div>
-                <hr />
-                <div dangerouslySetInnerHTML={{__html:content.childMarkdownRemark.html}} />
-            </div>
-        )
-    }
+export const BlogPostTemplate = ({
+  content,
+  contentComponent,
+  description,
+  title,
+  helmet,
+}) => {
+  const PostContent = contentComponent || Content
+
+  return (
+    <section className="section">
+      {helmet || ''}
+      <div className="container content">
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+              {title}
+            </h1>
+            <p>{description}</p>
+            <PostContent content={content} />
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }
 
-BlogPost.PropTypes = {
-    data: PropTypes.object.isRequired
-}
+export default props => {
+  const { markdownRemark: post } = props.data
 
-export default BlogPost
+  return (
+    <BlogPostTemplate
+      content={post.html}
+      contentComponent={HTMLContent}
+      description={post.frontmatter.description}
+      helmet={<Helmet title={`Blog | ${post.frontmatter.title}`} />}
+      title={post.frontmatter.title}
+    />
+  )
+}
 
 export const pageQuery = graphql`
-    query blogPostQuery($slug: String!){
-        contentfulBlog(slug: {eq: $slug}) {
-            title
-            createdAt(formatString: "MMMM DD, YYYY")
-            featuredImage {
-                sizes(maxWidth: 800) {
-                    ...GatsbyContentfulSizes
-                }
-            }
-            content {
-                childMarkdownRemark {
-                    html
-                }
-            }
-        }
+  query BlogPostByID($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+        description
+      }
     }
+  }
 `
