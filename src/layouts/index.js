@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Navbar from '../components/Navbar'
 import './all.sass'
 import Chatbot from '../components/Chatbot'
+import Footer from '../components/Footer'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -12,6 +13,7 @@ const TemplateWrapper = ({ children }) => (
     <Navbar />
     <div>{children()}</div>
     <Chatbot />
+    <Footer />
   </div>
 )
 
