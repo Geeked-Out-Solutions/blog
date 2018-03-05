@@ -29,6 +29,7 @@ const Navbar = () => (
           <span className="icon">
             <img src={github} alt="Github" />
           </span>
+          </a>
           <a
             className="navbar-item"
             href="https://www.patreon.com/bePatron?u=7262852"
@@ -39,7 +40,6 @@ const Navbar = () => (
               <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become A Patron" />
             </span>
           </a>
-        </a>
       </div>
     </div>
   </nav>
