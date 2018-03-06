@@ -5,6 +5,10 @@ date: 2018-03-05T12:06:52.947Z
 description: >-
   In this tutorial I will be showing you how to build a React chatbot featuring
   Mycroft AI content as the demo.
+tags:
+  - chatbots
+  - react
+  - mycroftai
 ---
 ![Mycroft AI Chatbot Screenshot](/img/mycroft_ss.jpg)
 
