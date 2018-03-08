@@ -10,7 +10,7 @@ module.exports = {
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
   siteGATrackingID: "UA-102614039-1", // Tracking code ID for google analytics.
-  disqusShortname: "geeked-out-solutions", // Disqus shortname.
+  disqusShortname: "https-geeked-out-solutions", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   userName: "Brian Hopkins", // Username to display in the author segment.
   userTwitter: "btotharye", // Optionally renders "Follow Me" in the UserInfo segment.
