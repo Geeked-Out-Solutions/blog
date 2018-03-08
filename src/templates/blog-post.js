@@ -3,6 +3,7 @@ import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Content, { HTMLContent } from '../components/Content'
+import Disqus from '../components/Disqus'
 
 export const BlogPostTemplate = ({
   content,
