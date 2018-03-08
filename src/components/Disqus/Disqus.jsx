@@ -36,7 +36,6 @@ class Disqus extends Component {
     const url = config.siteUrl + postNode.fields.slug;
     console.log("The disqus url is: " + url)
     console.log(config.disqusShortname)
-    console.log(this.page.url)
     return (
       <Card className="md-grid md-cell md-cell--12">
         <CardTitle
