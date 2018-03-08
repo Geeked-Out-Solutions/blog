@@ -43,7 +43,7 @@ class Disqus extends Component {
         />
         <CardText expandable={!expanded}>
           <ReactDisqusComments
-            shortname="geeked-out-solutions"
+            shortname={config.disqusShortname}
             identifier={post.title}
             title={post.title}
             url={url}
