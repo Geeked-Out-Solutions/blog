@@ -3,7 +3,6 @@ title: "Create A Chatbot Using React Featuring Mycroft AI Content"
 cover: "https://images.unsplash.com/photo-1504164996022-09080787b6b3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b237330e1a78d52ec28208cbe21be778&auto=format&fit=crop&w=1350&q=80"
 date: "03/05/2018"
 category: "chatbots"
-slug: "create-react-chatbot"
 tags:
     - programming
     - react
