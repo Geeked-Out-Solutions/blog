@@ -33,7 +33,7 @@ class Disqus extends Component {
       return null;
     }
     const post = postNode.frontmatter;
-    const url = config.siteUrl + config.pathPrefix + postNode.fields.slug;
+    const url = config.siteUrl + postNode.fields.slug;
     console.log("The disqus url is: " + url)
     console.log(config.disqusShortname)
     return (
