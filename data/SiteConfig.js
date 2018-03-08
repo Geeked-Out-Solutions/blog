@@ -15,7 +15,7 @@ module.exports = {
   userName: "Brian Hopkins", // Username to display in the author segment.
   userTwitter: "btotharye", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Clayton, NC", // User location to display in the author segment.
-  userAvatar: "http://clipart-library.com/data_images/287704.jpg", // User avatar to display in the author segment.
+  userAvatar: "/logos/avatar.jpg", // User avatar to display in the author segment.
   userDescription:
     "Brian Hopkins is a avid Python/javascript programmer and enjoys automating his house and other things in his work and personal life.  He enjoys teaching others about AI, chatbots, and other automation topics.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
