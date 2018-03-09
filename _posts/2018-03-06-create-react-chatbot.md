@@ -1,14 +1,13 @@
 ---
-title: 'Create A Chatbot Using React Featuring Mycroft AI'
-date: 2018-03-06
-permalink: /posts/2018/03/create-react-chatbot/
+title: Create A Chatbot Using React Featuring Mycroft AI
+date: 2018-03-06T00:00:00.000Z
 category: chatbots
 tags:
   - chatbot
   - ai
   - react
 ---
-![Mycroft AI Chatbot Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/mycroft_ss.jpg)
+![Mycroft AI Chatbot Screenshot](/img/uploads/mycroft_ss.jpg)
 
 In this blog post I will be showing you how to build a simple chatbot in React based on <https://lucasbassetti.com.br/react-simple-chatbot/> which is a nice package to create your own chatbot solution.  In this example I'm just using the chatbot to answer basic questions about a open source project [Mycroft AI](https://mycroft.ai/)
 
@@ -170,20 +169,18 @@ export default InstallMycroft;
 
 This above is what generates this context in the chatbot, also notice how it triggers the menu again, this is because we trigger 1 in the step as seen above in the code.
 
-
-
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <ins class="adsbygoogle"
  style="display:block" data-ad-client="ca-pub-2750422863713517"
  data-ad-slot="8313202585"
  data-ad-format="auto"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-
-
-![Chatbot Install Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/mycroft_ss_install.jpg)
+![Chatbot Install Screenshot](/img/uploads/mycroft_ss_install.jpg)
 
 # More Information
 
