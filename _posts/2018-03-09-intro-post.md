@@ -1,7 +1,6 @@
 ---
-title: 'Welcome To The Blog!'
-date: 2018-03-09
-permalink: /posts/2018/03/intro-blog/
+title: Welcome To The Blog!
+date: '2018-03-02'
 tags:
   - intro
 ---
