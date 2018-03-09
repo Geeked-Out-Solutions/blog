@@ -7,7 +7,7 @@ tags:
   - ai
   - react
 ---
-![Mycroft AI Chatbot Screenshot](/img/uploads/mycroft_ss.jpg)
+![Mycroft AI Chatbot Screenshot](/assets/images/mycroft_ss.jpg)
 
 In this blog post I will be showing you how to build a simple chatbot in React based on <https://lucasbassetti.com.br/react-simple-chatbot/> which is a nice package to create your own chatbot solution.  In this example I'm just using the chatbot to answer basic questions about a open source project [Mycroft AI](https://mycroft.ai/)
 
@@ -180,7 +180,7 @@ This above is what generates this context in the chatbot, also notice how it tri
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![Chatbot Install Screenshot](/img/uploads/mycroft_ss_install.jpg)
+![Chatbot Install Screenshot](/assets/images/mycroft_ss_install.jpg)
 
 # More Information
 
