@@ -6,3 +6,11 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.page__footer {
+  background-color: #f48737;
+}
+
+.masthead {
+  border-bottom: 1px solid #f48737;
+}
