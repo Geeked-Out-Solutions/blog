@@ -6,30 +6,3 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-.page__footer {
-  background-color: #f48737;
-  color: #fff;
-}
-
-.masthead {
-  background-color: #f48737;
-  color: #fff;
-  border-bottom: 1px solid #f48737;
-}
-
-.site-title {
-  background-color: #f48737;
-}
-
-.masthead__menu-item {
-  background-color: #f48737;
-}
-
-.visible-links {
-  background-color: #f48737;
-}
-
-.greedy-nav {
-  background-color: #f48737;
-}
