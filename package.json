@@ -1,18 +1,18 @@
 {
-  "name": "minimal-mistakes",
-  "version": "4.10.0",
-  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "name": "geek-blog",
+  "version": "1.0",
+  "description": "Blog for geeked out solutions",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "git://github.com/Geeked-Out-Solutions/blog.git"
   },
-  "keywords": ["jekyll", "theme", "minimal"],
-  "author": "Michael Rose",
+  "keywords": ["jekyll", "blog", "minimal"],
+  "author": "Brian Hopkins",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/Geeked-Out-Solutions/blog.git/issues"
   },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://www.geekedoutsolutions.com",
   "engines": {
     "node": ">= 0.10.0"
   },
