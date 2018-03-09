@@ -4,6 +4,8 @@ main:
     url: /about/
   - title: "Posts by Categories"
     url: /categories/
+  - title: "Youtube"
+    url: https://www.youtube.com/GeekedOutSolutions
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
