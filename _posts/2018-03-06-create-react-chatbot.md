@@ -183,7 +183,7 @@ This above is what generates this context in the chatbot, also notice how it tri
 
 
 
-![Chatbot Install Screenshot]({{ site.url }}{{ site.baseurl }}/images/mycroft_ss_install.jpg)
+![Chatbot Install Screenshot]({{ site.url }}{{ site.baseurl }}/assets/images/mycroft_ss_install.jpg)
 
 # More Information
 
