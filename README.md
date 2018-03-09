@@ -1,2 +1,2 @@
-# Blog
-The source code for www.geekedoutsolutions.com
+# geeked-out-solutions.github.io
+Blog
