@@ -2,6 +2,7 @@
 title: 'Create A Chatbot Using React Featuring Mycroft AI'
 date: 2018-03-06
 permalink: /posts/2018/03/create-react-chatbot/
+category: chatbots
 tags:
   - chatbot
   - ai
