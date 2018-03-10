@@ -13,7 +13,7 @@ title                    : "Geeked Out Solutions"
 title_separator          : "-"
 name                     : "Brian Hopkins"
 description              : "A blog about datacenter automation, chatbots, AI and other geeky things."
-url                      : "https://dev.geekedoutsolutions.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://www.geekedoutsolutions.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : geeked-out-solutions/blog # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -25,9 +25,9 @@ comments:
     shortname            : "geeked-out-solutions" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -75,7 +75,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "geekedoutsol"
   foursquare       :
   github           : "geeked-out-solutions"
   gitlab           :
@@ -85,6 +85,7 @@ author:
   lastfm           :
   linkedin         : "brianhh1230" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
+  patreon          : "https://www.patreon.com/bePatron?u=7262852"
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
@@ -93,7 +94,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : "https://www.youtube.com/GeekedOutSolutions" # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
@@ -238,4 +239,4 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false
+      author_profile: true
