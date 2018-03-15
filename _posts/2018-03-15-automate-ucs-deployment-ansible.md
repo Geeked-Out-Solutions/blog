@@ -3,7 +3,7 @@ title: Automate UCS Deployment With Ansible and Python
 date: 2018-03-15T00:00:00.000Z
 category: datacenter automation
 toc: true
-toc_label: "Automate UCS Deployment Table of Contents"
+toc_label: "Table of Contents"
 tags:
   - datacenter automation
   - ansible
