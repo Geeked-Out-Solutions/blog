@@ -54,7 +54,7 @@ More information on creating your own custom ansible modules can be found [here]
 ## Inventory
 This is where we specify our UCSM instances and login information that we want to perform our playbooks against.
 
-# Automating UCS Deployment
+## Automating UCS Deployment
 Ok so lets now automate our UCS setup and test out our site.yml file with some of the playbook options we have configured.
 
 ## Setting Up Deployment Machine
@@ -187,7 +187,7 @@ dns_ip:
 - "192.168.1.5"
 - "192.168.1.6"
 ```
-# Pushing Our Configuration
+## Pushing Our Configuration
 Great now if everything is setup correctly we should now be ready to push our configuration to our UCS. We just need to ensure we know what our path is to our UCS ansible files then perform the below command replacing the /path/ansible-ucs to whatever path your files are in:
 `docker run -it -v /path/ucsm-ansible:/opt/ansible-ucs ansible-ucs ansible-playbook -i inventory site.yml`
 If successful you should see output like below in the screen:
