@@ -19,6 +19,7 @@ In today's blog we will be going over how to automate a Cisco UCS deployment usi
 All the source code for today's blog can be found at the below two links:
 * Ansible configuration/playbooks - [Here](https://github.com/btotharye/ansible-ucs)
 * Ansible docker deployment - [Here](https://github.com/btotharye/ansible-ucs-deploy)
+* Cisco's Official UCSM ansible modules (Some don't appear to be working yet, we aren't using it in this post) - [Here](https://github.com/CiscoUcs/ucsm-ansible)
 
 # Things You Will Need
 1. A Cisco UCS Manager instance, I'm using the [UCS Platform Emulator](https://communities.cisco.com/docs/DOC-71877) in this demo to showcase how the playbooks work and how I build and test them. Your UCSM will need a virtual IP at least setup for these playbooks to work.
