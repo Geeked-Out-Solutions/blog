@@ -2,7 +2,7 @@
 layout: post
 title: Automating Cisco UCS Deployment With Ansible and Python
 date: '2018-03-15'
-category: 'datacenter, automation'
+category: datacenter automation
 tags:
   - cisco
   - ucs
