@@ -11,6 +11,8 @@ tags:
   - ansible
   - python
 ---
+![](/assets/images/pexels-photo-325229.jpeg)
+
 In today's blog we will be going over how to automate a Cisco UCS deployment using some custom ansible modules I made in python using [Cisco UCS SDK](https://communities.cisco.com/docs/DOC-64378).
 
 
