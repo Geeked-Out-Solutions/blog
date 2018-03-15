@@ -2,6 +2,8 @@
 title: Automate UCS Deployment With Ansible and Python
 date: 2018-03-15T00:00:00.000Z
 category: datacenter automation
+toc: true
+toc_label: "Automate UCS Deployment Table of Contents"
 tags:
   - datacenter automation
   - ansible
@@ -15,18 +17,18 @@ In today's blog we will be going over how to automate a Cisco UCS deployment usi
 # What Is Ansible
 [Ansible](https://www.ansible.com) is a great system and I love using it to automate things. It is meant to be a configuration management, provisioning, and task execution software. You are also able to write your own custom modules to perform actions on things which is what we will be doing today in this blog. If you aren't familiar with Ansible I urge you to do some training on it as it can save a lot of time.
 
-# Source Code
+## Source Code
 All the source code for today's blog can be found at the below two links:
 * Ansible configuration/playbooks - [Here](https://github.com/btotharye/ansible-ucs)
 * Ansible docker deployment - [Here](https://github.com/btotharye/ansible-ucs-deploy)
 * Cisco's Official UCSM ansible modules (Some don't appear to be working yet, we aren't using it in this post) - [Here](https://github.com/CiscoUcs/ucsm-ansible)
 
-# Things You Will Need
+## Things You Will Need
 1. A Cisco UCS Manager instance, I'm using the [UCS Platform Emulator](https://communities.cisco.com/docs/DOC-71877) in this demo to showcase how the playbooks work and how I build and test them. Your UCSM will need a virtual IP at least setup for these playbooks to work.
 2. Docker installed on a machine that can reach your UCS instance. If you are already familiar with Ansible and have it installed you don't need this.
 3. Git installed so you can clone my repo or you can download the files and upload them to the box you will be deploying from.
 
-# The Structure of The Playbooks/Site File
+## The Structure of The Playbooks/Site File
 So in the ansible playbook code located [here](https://github.com/btotharye/ansible-ucs) you will see a few different folders and files. Most you don't have to be really concerned with at first to use this setup.
 I have split up the different folder locations into sections below that we will go over their use.
 
