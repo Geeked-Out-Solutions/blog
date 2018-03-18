@@ -54,17 +54,6 @@ More information on creating your own custom ansible modules can be found [here]
 ## Inventory
 This is where we specify our UCSM instances and login information that we want to perform our playbooks against.
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<ins class="adsbygoogle"
- style="display:block" data-ad-client="ca-pub-2750422863713517"
- data-ad-slot="8313202585"
- data-ad-format="auto"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Automating UCS Deployment
 Ok so lets now automate our UCS setup and test out our site.yml file with some of the playbook options we have configured.
 
