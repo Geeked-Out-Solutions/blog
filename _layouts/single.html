@@ -47,7 +47,6 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
-      <div align="center">{% include advertisements.html %}</div>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
@@ -64,6 +63,9 @@ layout: default
       {% if page.share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
+
+      {% include advertisements.html %}
+
     </div>
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
