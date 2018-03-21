@@ -24,6 +24,10 @@
       {{ content }}
     </div>
 
+    <div class="ads">
+      {% include advertisements.html %}
+    </div>
+
     {% if site.search == true %}
       <div class="search-content">
         {% include search/search_form.html %}
