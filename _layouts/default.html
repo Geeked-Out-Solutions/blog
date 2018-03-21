@@ -21,12 +21,11 @@
 
     <div class="initial-content">
       <img src="https://www.geekedoutsolutions.com/assets/images/Banner.png" width="100%" height="60%"/>
+      {% include advertisements.html %}
+      
       {{ content }}
     </div>
 
-    <div class="ads">
-      {% include advertisements.html %}
-    </div>
 
     {% if site.search == true %}
       <div class="search-content">
