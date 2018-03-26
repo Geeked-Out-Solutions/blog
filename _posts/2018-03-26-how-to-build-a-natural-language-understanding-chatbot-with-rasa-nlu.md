@@ -34,7 +34,7 @@ Once you bring everything up with docker-compose you should have the following s
 2. A Flask container listening at port 5005
 
 # How It Works
-So I have simplified some of the process here by using Flask to create a very basic UI for interacting with the chatbot.  It uses some js code I found on GitHub to make calls to the Flask route /chat which runs the below code:
+So I have simplified some of the process here by using Flask to create a very basic UI for interacting with the chatbot.  It uses some js code I [found](https://github.com/lkamat/startbot/blob/master/static/js/bind.js) on GitHub to make calls to the Flask route /chat which runs the below code:
 
 ```python
 @app.route('/chat')
