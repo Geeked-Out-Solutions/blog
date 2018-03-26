@@ -1,8 +1,9 @@
 ---
-layout: post
 title: How To Build A Natural Language Understanding Chatbot With Rasa NLU
 date: '2018-03-26'
 category: chatbots
+toc: true
+toc_label: "Table of Contents"
 tags:
   - chatbots
   - rasa
@@ -19,7 +20,7 @@ Today we will be going over how to build a Rasa chatbot.  We will be using natur
 
 This project I have built and go over in this post was meant to be a starting point for a boilerplate chatbot with Rasa as a complete docker application.  Using compose we have simplified the process of bringing up rasa, bringing up a chatbot ui, and handling our training all in docker.
 
-# What Is Rasa??  ![Rasa Logo](assets/images/rasa_logo.jpg)
+# What Is Rasa??  ![Rasa Logo](/assets/images/rasa_logo.jpg)
 [Rasa](https://rasa.ai) is a open source platform for building conversational chatbots and software.  It uses existing ML and NLP libraries to classify the text based on models you train it with.  For more information please see the docs [Here](https://nlu.rasa.com/installation.html)
 
 # Source Code For Project
@@ -28,7 +29,7 @@ The source code for a boilerplate chatbot can be found [here](https://github.com
 # Bot Infrastructure
 Once you bring everything up with docker-compose you should have the following setup:
 
-1. A Rasa container listening at port 5000 
+1. A Rasa container listening at port 5000
 
 2. A Flask container listening at port 5005
 
@@ -94,7 +95,7 @@ If everything was done right you can now visit your chatbot UI at http://dockeri
 
 Using the above application you can build out your bot-model.json file in a GUI format.  You can see from the existing training data how it works and you can build upon it or clear it out and use your own data then save it.  You can then train your bot with this bot-model.json file via:
 
-`curl -XPOST dockerip:5000/train?project=chatbot -d @bot-model.json` 
+`curl -XPOST dockerip:5000/train?project=chatbot -d @bot-model.json`
 
 This will take a few to run and will give you back a message stating the training is complete.  This builds out a model folder in the container which we have mapping outside to our repository so we don't lose our training data.
 
