@@ -19,7 +19,7 @@ Today we will be going over how to build a Rasa chatbot.  We will be using natur
 
 This project I have built and go over in this post was meant to be a starting point for a boilerplate chatbot with Rasa as a complete docker application.  Using compose we have simplified the process of bringing up rasa, bringing up a chatbot ui, and handling our training all in docker.
 
-# What Is Rasa??
+# What Is Rasa??  ![Rasa Logo](assets/images/rasa_logo.jpg)
 [Rasa](https://rasa.ai) is a open source platform for building conversational chatbots and software.  It uses existing ML and NLP libraries to classify the text based on models you train it with.  For more information please see the docs [Here](https://nlu.rasa.com/installation.html)
 
 # Source Code For Project
