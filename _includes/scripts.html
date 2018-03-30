@@ -8,11 +8,7 @@
     <script src="{{ script_path }}"></script>
   {% endfor %}
 {% else %}
-<!-- Live Chat Widget powered by https://keyreply.com/chat/ -->
-<!-- Advanced options: -->
-<!-- data-align="left" -->
-<!-- data-overlay="true" -->
-<script data-align="right" data-overlay="false" id="keyreply-script" src="//keyreply.com/chat/widget.js" data-color="#FF9800" data-apps="JTdCJTIydGVsZWdyYW0lMjI6JTIybXljcm9mdGhlbHBfYm90JTIyJTdE"></script>
+<script id="chatBroEmbedCode">/* Chatbro Widget Embed Code Start */function ChatbroLoader(chats,async){async=!1!==async;var params={embedChatsParameters:chats instanceof Array?chats:[chats],lang:navigator.language||navigator.userLanguage,needLoadCode:'undefined'==typeof Chatbro,embedParamsVersion:localStorage.embedParamsVersion,chatbroScriptVersion:localStorage.chatbroScriptVersion},xhr=new XMLHttpRequest;xhr.withCredentials=!0,xhr.onload=function(){eval(xhr.responseText)},xhr.onerror=function(){console.error('Chatbro loading error')},xhr.open('GET','//www.chatbro.com/embed.js?'+btoa(unescape(encodeURIComponent(JSON.stringify(params)))),async),xhr.send()}/* Chatbro Widget Embed Code End */ChatbroLoader({encodedChatId: '8uhX'});</script>
   <script src="{{ '/assets/js/main.min.js' | absolute_url }}"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 {% endif %}
