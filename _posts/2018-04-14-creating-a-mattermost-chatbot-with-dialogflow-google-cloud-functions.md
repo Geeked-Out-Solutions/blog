@@ -21,7 +21,7 @@ The source code for this blog project can be found [Here](https://github.com/Gee
 
 I don't go into really detail on what the code does but basically it creates a webhook that takes the event from mattermost and grabs out the user and channel it was requested from (in case we wanted to later do @mention the user)
 
-Then we classify this text by sending it to the Dialogflow API and once we get that response we use our Mattermost Incoming Webhook to post it back to the channel on line 42. 
+Then we classify this text by sending it to the Dialogflow API and once we get that response we use our Mattermost Incoming Webhook to post it back to the channel on line 42.
 
 ## Getting Started
 First off you will need to sign up for [Google Cloud](https://cloud.google.com/) after you are signed up you will also need to sign up for the [Blaze Plan](https://firebase.google.com/pricing/) since we will be making external API calls, its pay as you go and you should also get $300 in credits when you sign up for google cloud.
@@ -43,7 +43,7 @@ Using the source code found [Here](https://github.com/Geeked-Out-Solutions/blog-
 
 3. Upon clicking on Create Function you will be presented with a screen like you can see in the below image.  You will want to keep the defaults and you can name your function whatever you like and if you have extra memory requirements you can change that as well if you prefer.
 
-***Make sure to open the inline editor and paste in the index.js and package.json files from the source code listed above and make sure the function to execute section is set to mattermostHook. ***
+***Make sure to open the inline editor and paste in the index.js and package.json files from the source code listed above and make sure the function to execute section is set to mattermostHook.***
 
 ![Google Cloud Screenshot 2](/assets/images/cloud_function_step2.JPG)
 
