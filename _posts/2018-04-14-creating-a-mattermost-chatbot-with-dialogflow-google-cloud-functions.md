@@ -19,6 +19,8 @@ Today we will be discussing how to build a chatbot for the open source chat fram
 ## Source Code For Project
 The source code for this blog project can be found [Here](https://github.com/Geeked-Out-Solutions/blog-chatbot/tree/master/google-cloud)
 
+I don't go into really detail on what the code does but basically it creates a webhook that takes the event from mattermost and grabs out the user and channel it was requested from (in case we wanted to later do @mention the user) and then we classify this text by sending it to the Dialogflow API and once we get that response we use our Mattermost Incoming Webhook to post it back to the channel on line 42. 
+
 ## Getting Started
 First off you will need to sign up for [Google Cloud](https://cloud.google.com/) after you are signed up you will also need to sign up for the [Blaze Plan](https://firebase.google.com/pricing/) since we will be making external API calls, its pay as you go and you should also get $300 in credits when you sign up for google cloud.
 
