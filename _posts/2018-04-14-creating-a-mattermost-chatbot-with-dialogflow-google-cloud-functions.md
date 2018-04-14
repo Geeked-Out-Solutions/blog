@@ -3,6 +3,8 @@ layout: post
 title: Creating A Mattermost Chatbot With Dialogflow & Google Cloud Functions
 date: '2018-04-14'
 category: chatbots
+toc: true
+toc_label: "Table of Contents"
 tags:
   - chatbots
   - ai
