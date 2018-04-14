@@ -92,4 +92,6 @@ Now we can save this and in the right side of the screen we should be able to th
 ![Mattermost Response](/assets/images/mattermost_response.JPG)
 
 ### Donate on Patreon
-If you like this content or are interested in more how to's please check me out on [Patreon](https://www.patreon.com/Geekedoutsol) or you can [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=brianhh1230%40gmail%2ecom&lc=US&item_name=Geeked%20Out%20Solutions&no_note=0&cn=Add%20special%20instructions%20to%20the%20seller%3a&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) directly.
+If you like this content or are interested in more how to's please check me out on [Patreon](https://www.patreon.com/Geekedoutsol) My Patreons get access to posts I don't release to the public and to more in depth how to information.
+
+You can also [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=brianhh1230%40gmail%2ecom&lc=US&item_name=Geeked%20Out%20Solutions&no_note=0&cn=Add%20special%20instructions%20to%20the%20seller%3a&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) directly.
