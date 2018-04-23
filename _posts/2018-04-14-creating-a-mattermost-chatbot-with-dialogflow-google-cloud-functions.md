@@ -11,10 +11,11 @@ tags:
   - google cloud
   - mattermost
 ---
-![Mattermost Image](/assets/images/mattermost.jpg) ![Google Cloud Function Logo](/assets/images/cloud_function.png)
 
-## Introduction
 Today we will be discussing how to build a chatbot for the open source chat framework [Mattermost](https://about.mattermost.com/) and also using [Google Cloud Functions](https://cloud.google.com/functions/) to build out a Natural Understanding chatbot via the [Dialogflow](https://dialogflow.com/) system owned now by Google.
+
+
+![Mattermost Image](/assets/images/mattermost.jpg) ![Google Cloud Function Logo](/assets/images/cloud_function.png)
 
 ## Source Code For Project
 The source code for this blog project can be found [Here](https://github.com/Geeked-Out-Solutions/blog-chatbot/tree/master/google-cloud)

@@ -7,6 +7,8 @@ tags:
   - ai
   - react
 ---
+A blog post about creating a React chatbot using the project [Mycroft AI](https://mycroft.ai).  Mycroft AI is a open source project that is a open source voice assistant based on the python programming language.  I have been learning React and used this react-simple-chatbot project to create chatbots that can connect to external API's.
+
 ![Mycroft AI Chatbot Screenshot](/assets/images/mycroft_ss.jpg)
 
 In this blog post I will be showing you how to build a simple chatbot in React based on <https://lucasbassetti.com.br/react-simple-chatbot/> which is a nice package to create your own chatbot solution.  In this example I'm just using the chatbot to answer basic questions about a open source project [Mycroft AI](https://mycroft.ai/)

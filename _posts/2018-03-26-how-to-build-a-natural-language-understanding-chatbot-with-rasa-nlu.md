@@ -12,12 +12,11 @@ tags:
   - ai
   - machine learning
 ---
-![Chatbot Screenshot](/assets/images/rasa_chatbot.JPG)
-
-
-## Introduction
 Today we will be going over how to build a Rasa chatbot.  We will be using natural language processing also known as NLU to make our chatbot appear to be smart and understand the questions we are asking.
 
+![Chatbot Screenshot](/assets/images/rasa_chatbot.JPG)
+
+## Introduction
 This project I have built and go over in this post was meant to be a starting point for a boilerplate chatbot with Rasa as a complete docker application.  Using compose we have simplified the process of bringing up rasa, bringing up a chatbot ui, and handling our training all in docker.
 
 ## What Is Rasa??  ![Rasa Logo](/assets/images/rasa_logo.jpg)
