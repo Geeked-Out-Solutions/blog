@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
-  - title: "Chatbot Pricing"
-    url: /pricing/
+  - title: "Chatbots"
+    url: /chatbots/
   - title: "Categories"
     url: /categories/
   - title: "Contact Us"
