@@ -1,17 +1,15 @@
-<div><form action="//formspree.io/geekedoutsolutions@gmail.com" method="POST">
- <fieldset>
- <label for="name">Your name</label><br>
- <input type="text" name="name" placeholder="Name" id="name" required>
- </fieldset>
- <fieldset>
- <label for="_replyto">Your email</label><br>
- <input type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
- </fieldset>
- <fieldset>
- <label for="message">Your message</label><br>
- <textarea name="message" rows="1" placeholder="Message" id="message" required></textarea>
- </fieldset>
- <input class="hidden" type="text" name="_gotcha" style="display:none">
- <input class="hidden" type="hidden" name="_subject" value="Message via www.geekedoutsolutions.com">
-<input class="button submit" type="submit" value="Send">
+<div><form name="contact" method="POST" netlify>
+  <p>
+    <label>Your Name: <input type="text" name="name"></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email"></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <div netlify-recaptcha></div>
+  <p>
+    <button type="submit">Send</button>
+  </p>
 </form></div>
